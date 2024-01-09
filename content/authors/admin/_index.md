@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. in Human Nutrition
+role: Ph.D. in Nutritional Biology
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -29,21 +29,21 @@ bio: My research interests include multi-omics, deep learning, and neurodegerati
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
   - Bioinformatics
-  - glycosylation
+  - Glycosylation
+  - Deep Learning
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Human Nutrition
+    - course: PhD in Nutritional Biology
       institution: University of California, Davis
       year: 2024
-    - course: MS in Epigenetic nutrition
+    - course: MS in Epigenetic Nutrition
       institution: University of Illinois, Champaign-Urbana
       year: 2018
-    - course: BSc in Food Science and Technology
-      institution: Zhejiang University
+    - course: BEng in Food Science and Technology
+      institution: Zhejiang University, China
       year: 2017
 
 # Skills
@@ -90,6 +90,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fab
+    link: https://scholar.google.com/citations?user=bpFWqC4AAAAJ&hl=en&authuser=1
   - icon: researchgate # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fab
     link: https://www.researchgate.net/profile/Xinyu-Tang-8
@@ -108,5 +111,5 @@ social:
 highlight_name: true
 ---
 
-Xinyu Tang is a PhD in nutritional biology at UCD, working with Dr. Angela Zivkovic. She is a motivated researcher insterest in Alzheimer's Disease and using computation methods to dissect the disease. Her expertise spans from data analysis of multi-omics data to the application of state-of-art deep learning model on object detection and quantification on transmission electron microscopy inages. 
+Xinyu Tang is a PhD in nutritional biology at UCD, working with Dr. Angela Zivkovic. She is a motivated researcher insterest in Alzheimer's Disease and using computation methods to dissect the disease. Her expertise spans from data analysis of multi-omics data to the application of state-of-art deep learning model on object detection and quantification on transmission electron microscopy images. 
 {style="text-align: justify;"}
