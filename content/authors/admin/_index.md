@@ -108,5 +108,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Xinyu Tang is a PhD in nutritional biology at UCD, working with Dr. Angela Zivkovic. She is a motivated researcher insterest in Alzheimer's Disease and using computation methods to dissect the disease. Her expertise spans from data analysis of multi-omics data to the application of state-of-art deep learning model on object detection and quantification on transmission electron microscopy inages. 
 {style="text-align: justify;"}
