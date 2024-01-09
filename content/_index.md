@@ -62,27 +62,27 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Graduate Student Researcher
+          company: University of California, Davis
           company_url: ''
-          company_logo: org-gc
+          company_logo: ''
           location: California
-          date_start: '2021-01-01'
+          date_start: '2019-03-01'
           date_end: ''
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Data analysis
+              * Visualization
+              * Statistics
+        - title: Teaching Assistance
+          company: University of California, Davis
           company_url: ''
-          company_logo: org-x
+          company_logo: ''
           location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: '2019-09-25'
+          date_end: ''
+          description: Teaching assistant for NUT10, NUT116B, NUT117
     design:
       columns: '2'
   - block: accomplishments
@@ -99,32 +99,32 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: https://coursera.org/share/59742281944564311467059f25ede9eb
-          date_end: '2023-11-09'
-          date_start: ''
+          date_end: ''
+          date_start: '2023-11-09'
           description: ''
           icon: coursera
           organization: Coursera
           organization_url: https://www.coursera.org
           title: Deep Learning Specialization
           url: https://www.coursera.org/specializations/deep-learning
-        - certificate_url: https://coursera.org/share/133bb7328440efc09b50e190ba1eaeb0
-          date_end: '2023-03-01'
-          date_start: ''
-          description: Genomic Data Science.
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Genomic Data Science
-          url: https://www.coursera.org/specializations/genomic-data-science
         - certificate_url: https://coursera.org/share/4d667a1fc9ad6a320d1c1fdcef0dca0b
-          date_end: '2023-06-12'
-          date_start: ''
+          date_end: ''
+          date_start: '2023-06-12'
           description: ''
           icon: coursera
           organization: Coursera
           organization_url: https://www.coursera.org
           title: 'Machine Learning'
           url: 'https://www.coursera.org/specializations/machine-learning-introduction'
+        - certificate_url: https://coursera.org/share/133bb7328440efc09b50e190ba1eaeb0
+          date_end: ''
+          date_start: '2023-03-01'
+          description: Genomic Data Science.
+          icon: coursera
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Genomic Data Science
+          url: https://www.coursera.org/specializations/genomic-data-science
     design:
       columns: '2'
   # - block: collection
