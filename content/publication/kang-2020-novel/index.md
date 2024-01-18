@@ -13,8 +13,16 @@ authors:
 - Joanne Agus
 - Angela Zivkovic
 date: '2020-01-01'
+doi: '10.1093/cdn/nzaa052_026'
 publishDate: '2023-12-24T05:56:21.401615Z'
 publication_types:
-- article-journal
+- presentation
 publication: '*Current Developments in Nutrition*'
+
+tags:
+- Abstract
+featured: false
+
+#links
+url_pdf: https://cdn.nutrition.org/article/S2475-2991(23)08275-6/pdf
 ---

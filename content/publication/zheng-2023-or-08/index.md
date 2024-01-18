@@ -11,8 +11,16 @@ authors:
 - Xinyu Tang
 - Angela Zivkovic
 date: '2023-01-01'
+doi: '10.1016/j.cdnut.2023.100201'
 publishDate: '2023-12-24T05:56:21.306181Z'
 publication_types:
-- article-journal
+- presentation
 publication: '*Current Developments in Nutrition*'
+
+tags:
+- Abstract
+featured: false
+
+#links
+url_pdf: https://doi.org/10.1093%2Fcdn%2Fnzac057.001
 ---
