@@ -31,6 +31,7 @@ bio: My research interests include multi-omics, deep learning, and neurodegerati
 interests:
   - Bioinformatics
   - Glycosylation
+  - Multi-omics
   - Deep Learning
 
 # Education to show in About widget
@@ -111,5 +112,5 @@ social:
 highlight_name: true
 ---
 
-Xinyu Tang is a PhD in nutritional biology at UCD, working with Dr. Angela Zivkovic. She is a motivated researcher insterest in Alzheimer's Disease and using computation methods to dissect the disease. Her expertise spans from data analysis of multi-omics data to the application of state-of-art deep learning model on object detection and quantification on transmission electron microscopy images. 
+Xinyu Tang is a PhD in nutritional biology at UCD, working with Dr. Angela Zivkovic. She is a motivated researcher insterest in Alzheimer's Disease and using computation methods to dissect the disease. Her expertise spans from data analysis of multi-omics data to the application of state-of-the-art deep learning model on object detection and quantification on transmission electron microscopy images. 
 {style="text-align: justify;"}
