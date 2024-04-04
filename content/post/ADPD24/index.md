@@ -51,7 +51,7 @@ Lisbon at night.
 
 ### 2. Castelo de S. Jorge
 
-![Overlooking from the wall.](https://drive.google.com/uc?id=1_GtnOpraWuImK6_UgGjq0tUDOOTm6HCo)
+![Overlooking from the wall.](https://drive.google.com/file/d/1_GtnOpraWuImK6_UgGjq0tUDOOTm6HCo/view?usp=sharing)
 
 Peacock in the castle.
 
