@@ -16,9 +16,9 @@ categories:
   - Note
 ---
 
-When having issues installing R packages on farm HPC with the conventional method (e.g., install.packages()), try out conda environment: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+When encountering issues installing R packages on the farm HPC using the conventional method (e.g., `install.packages()`), try out the conda environment: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
-## 1. Get conda: module load conda3/1.0
+## 1. Load the conda module: module load conda3/1.0
 
 ```bash
 module load conda3/1.0
@@ -45,14 +45,14 @@ conda install -c conda-forge -c bioconda [PKG1] [PKG2] [...]
 
 Where [PKG1] etc are conda packages; R packages on conda are named r-[library name]. For example, `conda install -c conda-forge -c bioconda r-dplyr`
 
-## 5. Now R and run: library(pkg)
+## 5. Now start R and run: library(pkg)
 
 For example
 ```r
 library(dplyr)
 ```
 
-## 6. Once it's done, conda deactivate the environment
+## 6. Once it's done, deactivate the conda environment
 
 ```bash
 conda deactivate

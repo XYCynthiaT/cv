@@ -67,6 +67,11 @@ skills:
         percent: 80
         icon: python
         icon_pack: fab
+      - name: Bash
+        description: ''
+        percent: 80
+        icon: ternimal
+        icon_pack: fab
       
   - name: Hobbies
     color: '#eeac02'

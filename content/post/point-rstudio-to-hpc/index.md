@@ -3,7 +3,7 @@ title: Run R Studio on HPC
 
 
 # Summary for listings and search engines
-summary: Analyzing large datasets (e.g., scRNAseq matrix) using R on a personal computer can be challenging as some steps take hours. Although we can run R on HPC, it's not optimal for interactive coding. Therefore, I'd like to share my experiences running R on HPC using [RStudio Server](https://www.rstudio.com/products/rstudio/#rstudio-server) and the [remoter R package](https://cran.r-project.org/web/packages/remoter/vignettes/remote_machines.pdf).
+summary: Analyzing large datasets with R utilizing an IDE on HPC clusters.
 
 # Link this post with a project
 projects: []
@@ -41,12 +41,7 @@ categories:
   - Note
 ---
 
-```python
-import libr
-print('hello')
-```
-
-Analyzing large datasets (e.g., scRNAseq matrix) using R on a personal computer can be challenging as some steps take hours. Although we can run R on HPC, it's not optimal at interactive coding. Therefore, I'd like to share my experiences running R on HPC using [RStudio Server](https://www.rstudio.com/products/rstudio/#rstudio-server) and the [remoter R package](https://cran.r-project.org/web/packages/remoter/vignettes/remote_machines.pdf).
+Analyzing large datasets (e.g., scRNAseq matrix) using R on a personal computer can be challenging as the personal laptop has limited resource and some steps take hours. Although we can run R on HPC, it's not optimal for interactive coding. Therefore, I'd like to share my experiences running R on HPC using [RStudio Server](https://www.rstudio.com/products/rstudio/#rstudio-server) and the [remoter R package](https://cran.r-project.org/web/packages/remoter/vignettes/remote_machines.pdf).
 
 # Overview
 
@@ -105,15 +100,14 @@ Username: username
 Password: password
 ```
 
-The port and password is randomly assigned.   
-Now, open a new terminal tab. Copy and paste the SSH tunneling magic above. After you successfully connect to the farm on the new terminal tab, open the browser and pasted the address above. It will bring you to the login page. Enter the username and password above and an R session on farm!
+The port and password are randomly assigned. Now, open a new terminal tab. Copy and paste the SSH tunneling command above. After successfully connecting to the farm on the new terminal tab, open the browser and paste the address provided above. It will bring you to the login page. Enter the username and password provided above to start an R session on the farm!
 
 # 2. Remoter
 
-It's a alternative to access remote R from local.
+It's an alternative way to access remote R from a local environment.
 
 ## Setting up on HPC  
-1.Install the remoter R package on local computer and HPC.  
+1.Install the `remoter` R package on local computer and HPC.  
 
 ```r
 install.packages("remoter")
@@ -129,7 +123,7 @@ srun -p med --time=9:00:00 --cpus-per-task=4 --mem=5G --pty /bin/bash -l
 
 Note: the default R version on farm is 3.6.3, you can type in the command `module load spack/R/4.1.1` before starting R. It will change the R to the latest version. Also, use `module avail` to check all available R versions.
 
-# Port forward over ssh  
+## Port forward over ssh  
 
 4.Open another terminal window and use this command to port forward:
 
@@ -137,9 +131,9 @@ Note: the default R version on farm is 3.6.3, you can type in the command `modul
 ssh -t -t userid@farm.cse.ucdavis.edu -L 55556:localhost:8888 ssh c8-62 -L 8888:localhost:55555
 ```
 
-Note: replace `c8-62` with the hostname shows up on your terminal.
+Note: replace `c8-62` with the hostname that shows up on your terminal.
 
-If the hostname on the window changes to the hostname in your command, the ssh tunnel have been successfully established.
+If the hostname on the window changes to the hostname in your command, the SSH tunnel has been successfully established.
 
 ![](remoter-server.png)
 
@@ -150,11 +144,11 @@ remoter::client("localhost", port =55556)
 
 You can see the console changes from ">" to "remoter>". If you use `list.files`, you will find you are running on HPC now.
 
-# Operating on local RStudio
+## Operating on local RStudio
 
-6.If you want to install any packages, you can enter `install.packages()` on local computer, but you need to switch to the HPC terminal to respond to any pop up messages.
+6.If you want to install any packages, you can enter `install.packages()` on the local computer, but you need to switch to the HPC terminal to respond to any popup messages.
 
-# To stop
+## To stop
 
 7.After you finished, enter `exit()` in the local console to stop remoter.
 
