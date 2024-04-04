@@ -51,7 +51,7 @@ Lisbon at night.
 
 ### 2. Castelo de S. Jorge
 
-![Overlooking from the wall.](https://drive.google.com/file/d/1_GtnOpraWuImK6_UgGjq0tUDOOTm6HCo/view?usp=sharing)
+![Sonny and Mariel high fiving.](https://content.codecademy.com/courses/learn-cpp/community-challenge/highfive.gif)
 
 Peacock in the castle.
 
