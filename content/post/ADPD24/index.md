@@ -75,7 +75,7 @@ Interior
 
 ### 2. Castelo de S. Jorge
 
-Overseeing from the wall.
+Overlooking from the wall.
 
 ![overseeing from the wall](https://drive.google.com/thumbnail?id=1QUFietoMLgcfbXRVbKE5-VqZNb0ShLwk&sz=w1000)
 

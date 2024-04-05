@@ -53,7 +53,7 @@ skills:
   - name: Technical
     items:
       - name: Data Science
-        description: ''
+        description: 'Multi-omics data in clinical studies.'
         percent: 100
         icon: chart-line
         icon_pack: fas
