@@ -24,6 +24,7 @@ categories:
   - Photo
 ---
 
+{{% toc %}}
 
 ## The ADPD24 conference
 
@@ -48,7 +49,7 @@ Lisbon sunset
 
 Overlooking the old city of Lisbon.
 
-![Overlooking](https://drive.google.com/thumbnail?id=1_GtnOpraWuImK6_UgGjq0tUDOOTm6HCo&sz=w1000)
+![Overlooking](https://drive.google.com/thumbnail?id=18ESyrg0Y4V3mnzZL6ENHR5m0J9nUNsAd&sz=w1000)
 
 Lisbon at night.
 
@@ -108,6 +109,7 @@ Peacock in the castle.
 ### 6. Padrão dos Descobrimentos
 
 ![Mourn](https://drive.google.com/thumbnail?id=12Lu7HT8zXyjBC8WR_ujp4l1IidwaDDyL&sz=w1000)
+![Mourn2](https://drive.google.com/thumbnail?id=1h72fctnxZKBJ8t0-fnx0IRfnS8ZMFojm&sz=w1000)
 
 ### 7. Jerónimos Monastery/Mosteiro dos Jerónimos
 
@@ -145,5 +147,5 @@ Interior.
 
 ### 6. Timeout Market
 
-![market](https://drive.google.com/thumbnail?id=1_GtnOpraWuImK6_UgGjq0tUDOOTm6HCo&sz=w1000)
+![market](https://drive.google.com/thumbnail?id=1F49YrBN-4_IeoPxieyaMB-JMu7T7koMj&sz=w1000)
 ![market2](https://drive.google.com/thumbnail?id=1F49YrBN-4_IeoPxieyaMB-JMu7T7koMj&sz=w1000)
