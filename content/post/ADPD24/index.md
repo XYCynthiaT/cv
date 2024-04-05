@@ -1,6 +1,6 @@
 ---
 title: ADPD24 conference
-date: 2024-03-5
+date: '2024-03-5'
 summary: Some photos for memories.
 image:
   placement: 2

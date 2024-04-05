@@ -70,7 +70,7 @@ skills:
       - name: Bash
         description: ''
         percent: 80
-        icon: ternimal
+        icon: terminal
         icon_pack: fab
       
   - name: Hobbies
