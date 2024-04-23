@@ -125,7 +125,7 @@ sections:
           description: |2-
 
               * Neural Networks and Deep Learning
-              * Improving Deep Neural Networks':' Hyperparameter Tuning, Regularization and Optimization
+              * Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
               * Structuring Machine Learning Projects
               * Convolutional Neural Networks
               * Sequence Models
@@ -138,7 +138,7 @@ sections:
           date_end: ''
           date_start: '2023-06-12'
           description: ''
-          icon: school
+          icon: Coursera
           organization: Coursera
           organization_url: https://www.coursera.org
           title: 'Machine Learning'

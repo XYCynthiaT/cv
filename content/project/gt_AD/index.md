@@ -1,6 +1,6 @@
 ---
 title: Differential Expression of Glycosyltransferase in the Brain of Indiviuals with AD
-summary: The differential expression of glycosyltransferases in AD vs control based on the data from public database
+summary: The differential expression of glycosyltransferases in AD vs control based on the data from public database, with reference to its original paper available at https://www.nature.com/articles/s41598-023-34787-4
 tags:
   - Transcriptome
 date: '2020-04-27T00:00:00Z'
