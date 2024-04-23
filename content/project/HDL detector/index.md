@@ -1,7 +1,8 @@
 ---
 title: Sizing HDL particles on TEM images
 summary: Measure HDL particle sizes using YOLOv7 object detector
-  - Machine learning
+tags:
+  - Python
   - Neural network
 date: "2024-01-10T00:00:00Z"
 
@@ -30,3 +31,5 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
+
+High-density lipoproteins (HDLs) are nanosized (7 – 15 nm) particles released by the liver, small intestine, and other minor tissues in the body. Conventional image analysis software can be challenged by various image quality issues and can be unpredictable. Here we implemented the yolov7 convolutional neural network for HDL imaging using TEM and particle measurement.
