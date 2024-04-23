@@ -32,4 +32,4 @@ url_video: ''
 # slides: example
 ---
 
-High-density lipoproteins (HDLs) are nanosized (7 – 15 nm) particles released by the liver, small intestine, and other minor tissues in the body. Conventional image analysis software can be challenged by various image quality issues and can be unpredictable. Here we implemented the yolov7 convolutional neural network for HDL imaging using TEM and particle measurement.
+High-density lipoproteins (HDLs) are nanosized (7 – 15 nm) particles released by the liver, small intestine, and other minor tissues in the body. Conventional image analysis software can be challenged by various image quality issues and can be unpredictable. Here we implemented the yolov7 convolutional neural network for particle measurement on TEM images.
