@@ -25,14 +25,14 @@ organizations:
     url: https://zivkoviclab.ucdavis.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include multi-omics, deep learning, and neurodegerative diseases.
+bio: My research interests include multi-omics, machine learning, and neurodegerative diseases.
 
 # Interests to show in About widget
 interests:
   - Bioinformatics
   - Glycosylation
   - Multi-omics
-  - Deep Learning
+  - Machine Learning
 
 # Education to show in About widget
 education:
@@ -70,7 +70,7 @@ skills:
       - name: Bash
         description: ''
         percent: 80
-        icon: terminal
+        icon: code
         icon_pack: fab
       
   - name: Hobbies
@@ -117,5 +117,5 @@ social:
 highlight_name: true
 ---
 
-Xinyu Tang is a PhD in nutritional biology at UCD, working with Dr. Angela Zivkovic. She is a motivated researcher insterest in Alzheimer's Disease and using computation methods to dissect the disease. Her expertise spans from data analysis of multi-omics data to the application of state-of-the-art deep learning model on object detection and quantification on transmission electron microscopy images. 
+Xinyu Tang is a PhD in nutritional biology at UCD, working with Dr. Angela Zivkovic. She is a motivated researcher interested in Alzheimer's Disease and uses computational methods to dissect the disease. Her expertise spans from data analysis of multi-omics data to the application of state-of-the-art deep learning models for object detection and quantification in transmission electron microscopy images.
 {style="text-align: justify;"}

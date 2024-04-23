@@ -70,11 +70,13 @@ sections:
           date_start: '2019-03-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
 
-              * Data analysis
-              * Visualization
-              * Statistics
+              * Glycosylation in human brains with Alzheimer’s Disease (AD)
+              * Glycosylation signature in human microglia activated by AβO
+              * Potential of serum glycoprotein as biomarker for AD diagnosis
+              * Dietary impact on HDL protein glycosylation
+              * Lipid profile associated with HDL particle size
+              * HDL particle count and quantification in TEM image
         - title: Teaching Assistance
           company: University of California, Davis
           company_url: ''
@@ -82,7 +84,26 @@ sections:
           location: California
           date_start: '2019-09-25'
           date_end: ''
-          description: Teaching assistant for NUT10, NUT116B, NUT117
+          description: |2-
+
+              * NUT117 (Experimental Nutrition)
+              * NUT116B (Clinical Nutrition)
+              * NUT 10 (Discoveries and Concepts in Nutrition)
+        - title: Graduate Research Mentor
+          company: University of California, Davis
+          company_url: ''
+          company_logo: ''
+          location: California
+          date_start: '2021-03-01'
+          date_end: ''
+          description: |2-
+
+              * Analysis and visualization of metabolomic and metabolomic data for the USANA fiber supplementation study.
+              * Statistical analysis of the Ghana study
+              * Statistical analysis on LCAT activity in participants from the USANA fiber supplementation study.
+              * Lipoprotein particle detection and quantification on TEM images utilizing deep learning.
+              * Visualization of HDL proteomic data in batches.
+              * Table design for clinical data collection. Machine learning on glycoproteomics data.
     design:
       columns: '2'
   - block: accomplishments
@@ -101,7 +122,13 @@ sections:
         - certificate_url: https://coursera.org/share/59742281944564311467059f25ede9eb
           date_end: ''
           date_start: '2023-11-09'
-          description: ''
+          description: |2-
+
+              * Neural Networks and Deep Learning
+              * Improving Deep Neural Networks':' Hyperparameter Tuning, Regularization and Optimization
+              * Structuring Machine Learning Projects
+              * Convolutional Neural Networks
+              * Sequence Models
           icon: coursera
           organization: Coursera
           organization_url: https://www.coursera.org
@@ -111,7 +138,7 @@ sections:
           date_end: ''
           date_start: '2023-06-12'
           description: ''
-          icon: coursera
+          icon: school
           organization: Coursera
           organization_url: https://www.coursera.org
           title: 'Machine Learning'
@@ -119,12 +146,28 @@ sections:
         - certificate_url: https://coursera.org/share/133bb7328440efc09b50e190ba1eaeb0
           date_end: ''
           date_start: '2023-03-01'
-          description: Genomic Data Science.
+          description: |2-
+
+              * Introduction to Genomic Technologies
+              * Python for Genomic Data Science
+              * Algorithms for DNA Sequencing
+              * Command Line Tools for Genomic Data Science
+              * Bioconductor for Genomic Data Science
+              * Bioconductor for Genomic Data Science
           icon: coursera
           organization: Coursera
           organization_url: https://www.coursera.org
           title: Genomic Data Science
           url: https://www.coursera.org/specializations/genomic-data-science
+        - certificate_url: uploads/singlecell.pdf
+          date_end: ''
+          date_start: '2022-07-27'
+          description: ''
+          icon: ucd
+          organization: UC Davis Bioinformatics Core
+          organization_url: https://bioinformatics.ucdavis.edu/
+          title: Single Cell RNA-Seq Analysis
+          url: https://bioinformatics.ucdavis.edu/
     design:
       columns: '2'
   # - block: collection
